@@ -1,0 +1,98 @@
+ body {
+     overflow-x: hidden;
+ }
+
+ #ust-govde {
+     background-image: url(IMG/Image\ \(3\).png);
+     background-size: cover;
+ }
+
+ #govde-resim-yazisi {
+     float: right;
+     background-color: rgba(255, 255, 255, 0.6);
+
+ }
+
+ #k-font {
+     line-height: 30px;
+ }
+
+ /* gövdedeki resimler için css kodlarımız!! */
+
+ #resim1 {
+     clip-path: polygon(10% 0%, 100% 10%, 0% 100%);
+     width: 300px;
+     transform: rotate(5deg);
+
+ }
+
+ #resim2 {
+     clip-path: polygon(100% 0, 100% 100%, 0 100%);
+     width: 400px;
+     height: 350px;
+     transform: rotate(14deg);
+     position: relative;
+     bottom: 280px;
+ }
+
+ #resim3 {
+     clip-path: polygon(10% 20%, 100% 10%, 0% 100%);
+     position: relative;
+     bottom: 320px;
+     transform: rotate(120deg);
+
+
+ }
+
+ /* yeşilimsi bir ersim var altta onun için yazaacağım css kodlarımız!!! */
+
+ #govde-alt-image {
+     background-size: cover;
+ }
+
+
+ /* gövde altındaki resimlerimiz için kodlarımız..!!!! */
+
+  #blok1{
+background-image: url(IMG/Image\ \(5\).png);
+  }
+
+   #blok2{
+    background-image: url(IMG/bg-purple.jpg);
+  } 
+  #blok3{
+    background-image: url(IMG/bg-red.jpg);
+  }
+   #blok4{
+    background-image: url(IMG/bg-yellow.jpg);
+  }
+
+  /*TODO alt taraftaki menudeki ağaç resimlerinin arka planları için */
+
+  #menu-image-bir{
+    background-image: url(IMG/bg-garden.jpg);
+    background-size: cover;
+  }
+
+  #menu-image-iki{
+    background-image: url(IMG/bg-garden.jpg);
+    background-size: cover;
+  }
+
+  #menu-image-uc{
+    background-image: url(IMG/bg-garden.jpg);
+    background-size: cover;
+  }
+
+   /*TODO menu içindeki resimlerin üiçindeki divlerin z indexlerini ayarlayabilmek için kodlarımız...*/
+
+   #ust{
+    z-index: 4;
+   }
+
+   #alt{
+    position: relative;
+    right: 10px;
+   }
+
+   
